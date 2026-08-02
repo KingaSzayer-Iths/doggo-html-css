@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO: kort beskrivning av sidan -->
+    <meta name="description"
+        content="Hitta hundaktiviteter, promenadgrupper, valpträning och hundvänliga caféer med Doggo." />
+
+    <title>Aktiviteter | Doggo</title>
+
+    <!-- Koppling till CSS-filen -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Skip link för tangentbordsanvändare -->
+    <a class="skip-link" href="#main-content">Hoppa till innehåll</a>
+
+    <!-- Header med logotyp och responsiv huvudnavigation -->
+    <header class="site-header">
+        <a class="logo" href="index.html">Doggo</a>
+
+        <!-- Mobilmeny utan JavaScript -->
+        <details class="mobile-menu">
+            <summary>☰ Meny</summary>
+
+            <nav aria-label="Mobilnavigation">
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="aktiviteter.html" aria-current="page">Aktiviteter</a></li>
+                    <li><a href="tips.html">Tips & inspiration</a></li>
+                </ul>
+            </nav>
+        </details>
+
+        <!-- Desktopnavigation -->
+        <nav class="main-nav" aria-label="Huvudnavigation">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="aktiviteter.html" aria-current="page">Aktiviteter</a></li>
+                <li><a href="tips.html">Tips & inspiration</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sidans huvudinnehåll -->
+    <main id="main-content">
+        <!-- Sidans introduktion -->
+        <section class="page-hero" aria-labelledby="activities-heading">
+            <h1 id="activities-heading">Aktiviteter</h1>
+
+            <p>
+                Hitta promenadgrupper, valpträning, hundvänliga caféer och sociala
+                aktiviteter för dig och din hund.
+            </p>
+        </section>
+
+        <!-- Sökfunktion och hitta nära mig -->
+        <section class="activity-tools" aria-labelledby="tools-heading">
+
+            <!-- Sökfältet är visuellt och visar hur en sökfunktion kan se ut.
+                 Sök länken leder till aktivitetslistan så att inget är dött. -->
+            <section class="search-form" aria-labelledby="search-heading">
+                <h2 id="search-heading">Hitta aktiviteter</h2>
+
+                <label for="activity-search">Sök efter aktivitet eller plats</label>
+
+                <div class="search-row">
+                    <input type="search" autocomplete="off" id="activity-search" name="search"
+                        placeholder="Exempel: Djurgården" />
+
+                    <a class="button" href="#activity-list-heading">Sök</a>
+                </div>
+            </section>
+
+            <a class="secondary-button" href="#map-section">📍 Hitta nära mig</a>
+        </section>
+
+        <!-- Filtrering -->
+        <section class="filter-section" aria-labelledby="filter-heading">
+            <h2 id="filter-heading">Filtrera aktiviteter</h2>
+
+            <div class="filter-list" aria-label="Filtrera aktiviteter efter kategori">
+                <a class="filter-button active-filter" href="aktiviteter.html">Alla</a>
+                <a class="filter-button" href="#promenadgrupp">Promenad</a>
+                <a class="filter-button" href="#valptraning">Träning</a>
+                <a class="filter-button" href="#hundcafe">Café</a>
+                <a class="filter-button" href="#aktivitetsdag">Event</a>
+            </div>
+        </section>
+
+        <!-- Aktivitetskort -->
+        <section class="activities-list" aria-labelledby="activity-list-heading">
+            <div class="section-intro">
+                <h2 id="activity-list-heading">Aktiviteter nära dig</h2>
+
+                <p>
+                    Här finns exempel på aktiviteter som kan passa olika hundägare,
+                    från lugna promenader till sociala event.
+                </p>
+            </div>
+
+            <div class="card-grid">
+                <article class="card" id="promenadgrupp">
+                    <img src="assets/images/walk.webp"
+                        alt="Hundägare promenerar tillsammans med sina hundar i Hagaparken." class="card-image"
+                        loading="lazy" />
+
+                    <div class="card-content">
+                        <h3>Promenadgrupp i Hagaparken</h3>
+
+                        <p>
+                            En lugn promenad för hundägare som vill träffa andra i området.
+                            Aktiviteten passar både nya och vana hundägare.
+                        </p>
+
+                        <ul class="card-info">
+                            <li>Plats: Hagaparken</li>
+                            <li>Avstånd: 2 km bort</li>
+                            <li>Kategori: Promenad</li>
+                        </ul>
+
+                        <a class="button" href="promenadgrupp.html">Läs mer</a>
+                    </div>
+                </article>
+
+                <article class="card" id="valptraning">
+                    <img src="assets/images/comehere.webp"
+                        alt="Hundägare tränar inkallning tillsammans med sina valpar i en park." class="card-image"
+                        loading="lazy" />
+
+                    <div class="card-content">
+                        <h3>Valpträning utomhus</h3>
+
+                        <p>
+                            Träning med fokus på kontakt, inkallning och vardagslydnad i en
+                            trygg, avkopplad och positiv miljö varje vecka.
+                        </p>
+
+                        <ul class="card-info">
+                            <li>Plats: Vasaparken</li>
+                            <li>Avstånd: 3 km bort</li>
+                            <li>Kategori: Träning</li>
+                        </ul>
+
+                        <a class="button" href="valptraning.html">Läs mer</a>
+                    </div>
+                </article>
+
+                <article class="card" id="hundcafe">
+                    <img src="assets/images/cafe.webp"
+                        alt="Hundägare fikar tillsammans med sina hundar på en uteservering." class="card-image"
+                        loading="lazy" />
+
+                    <div class="card-content">
+                        <h3>Hundvänligt caféhäng</h3>
+
+                        <p>
+                            Träffa andra hundägare på ett hundvänligt café med avslappnad
+                            stämning och social gemenskap.
+                        </p>
+
+                        <ul class="card-info">
+                            <li>Plats: Vasastan</li>
+                            <li>Avstånd: 3 km bort</li>
+                            <li>Kategori: Café</li>
+                        </ul>
+
+                        <a class="button" href="hundcafe.html">Läs mer</a>
+                    </div>
+                </article>
+
+                <article class="card" id="aktivitetsdag">
+                    <img src="assets/images/activity-day.webp"
+                        alt="Hundar och hundägare deltar i en aktivitetsdag utomhus." class="card-image"
+                        loading="lazy" />
+
+                    <div class="card-content">
+                        <h3>Aktivitetsdag för hundar</h3>
+
+                        <p>
+                            En social dag med lek, tips och aktiviteter för både hundar och
+                            ägare i en vacker utomhusmiljö.
+                        </p>
+
+                        <ul class="card-info">
+                            <li>Plats: Djurgården</li>
+                            <li>Avstånd: 6 km bort</li>
+                            <li>Kategori: Event</li>
+                        </ul>
+
+                        <a class="button" href="aktivitetsdag.html">Läs mer</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Statisk karta -->
+        <section class="map-section" id="map-section" aria-labelledby="map-heading">
+            <div class="section-intro">
+                <h2 id="map-heading">Aktiviteter nära dig på karta</h2>
+
+                <p>
+                    Kartan visar exempel på aktiviteter i närheten. I denna version är
+                    kartan statisk, men den visar hur funktionen skulle kunna fungera i
+                    en vidareutveckling.
+                </p>
+            </div>
+
+            <!-- Kartillustration med exempel på aktiviteter i närheten -->
+            <figure class="map-wrapper">
+
+                <img src="assets/images/map.webp"
+                    alt="Illustrerad karta över delar av Stockholm med markerade aktiviteter i närheten."
+                    class="map-image" loading="lazy" />
+
+                <a class="map-pin pin-one" href="promenadgrupp.html">
+                    📍 Promenadgrupp
+                    <span>Hagaparken · 2 km bort</span>
+                </a>
+
+                <a class="map-pin pin-two" href="hundcafe.html">
+                    ☕ Hundcafé
+                    <span>Vasastan · 3 km bort</span>
+                </a>
+
+                <figcaption>
+                    Statisk illustration över hundvänliga aktiviteter i Stockholm.
+                </figcaption>
+
+            </figure>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+
+            <!-- Om Doggo -->
+            <section class="footer-section">
+                <h2>Doggo</h2>
+                <p>
+                    En community skapad för hundägare som vill hitta aktiviteter,
+                    inspiration och hundvänliga platser.
+                </p>
+            </section>
+
+            <!-- Footer-navigation -->
+            <nav class="footer-section" aria-label="Sidfotens navigation">
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="aktiviteter.html">Aktiviteter</a></li>
+                    <li><a href="tips.html">Tips & inspiration</a></li>
+                </ul>
+            </nav>
+
+            <!-- Kontaktinformation -->
+            <section class="footer-section">
+                <h2>Kontakt</h2>
+
+                <address>
+                    <p>
+                        <a href="mailto:kontakt@doggo.se">kontakt@doggo.se</a>
+                    </p>
+
+                    <p>Stockholm, Sverige</p>
+                </address>
+            </section>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Doggo. Alla rättigheter förbehållna.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

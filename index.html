@@ -1,0 +1,159 @@
+<!-- DOGGO Startsida -->
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kinga Szayer">
+  <meta name="keywords"
+    content="hundar, hundaktiviteter, hundträning, hundvänliga caféer, promenadgrupper, hundliv, Stockholm">
+  <!-- SEO: kort beskrivning av webbplatsen -->
+  <meta name="description"
+    content="Doggo är en responsiv webbplats för hundägare med aktiviteter, tips och inspiration för ett aktivt hundliv.">
+
+  <title>Doggo | Aktiviteter och inspiration för hundägare</title>
+
+  <!-- Koppling till CSS-filen -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Skip link för tangentbordsanvändare -->
+  <a class="skip-link" href="#main-content">Hoppa till innehåll</a>
+
+  <!-- Header med logotyp och responsiv huvudnavigation -->
+  <header class="site-header">
+    <a class="logo" href="index.html">Doggo</a>
+
+    <!-- Mobilmeny utan JavaScript -->
+    <details class="mobile-menu">
+      <summary>☰ Meny</summary>
+
+      <nav aria-label="Mobilnavigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Hem</a></li>
+          <li><a href="aktiviteter.html">Aktiviteter</a></li>
+          <li><a href="tips.html">Tips & inspiration</a></li>
+        </ul>
+      </nav>
+    </details>
+
+    <!-- Desktopnavigation -->
+    <nav class="main-nav" aria-label="Huvudnavigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Hem</a></li>
+        <li><a href="aktiviteter.html">Aktiviteter</a></li>
+        <li><a href="tips.html">Tips & inspiration</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main - Sidans huvudinnehåll -->
+  <main id="main-content">
+    <!-- Hero-sektion för startsidan -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-content">
+        <h1 id="hero-heading">Hitta aktiviteter för dig och din hund</h1>
+
+        <p>
+          Upptäck promenadgrupper, hundvänliga platser och tips för ett
+          aktivt hundliv.
+        </p>
+
+        <a class="button" href="aktiviteter.html">Hitta aktiviteter</a>
+      </div>
+    </section>
+
+    <!-- Populära aktiviteter på startsidan -->
+    <section class="featured-activities" aria-labelledby="featured-heading">
+      <div class="section-intro">
+        <h2 id="featured-heading">Populära aktiviteter</h2>
+        <p>
+          Här hittar du några exempel på aktiviteter och platser som kan passa
+          dig och din hund.
+        </p>
+      </div>
+
+      <div class="card-grid">
+        <article class="card">
+          <img src="assets/images/walk.webp" alt="Hundägare promenerar tillsammans med sina hundar i en grön park."
+            class="card-image" loading="lazy">
+
+          <div class="card-content">
+            <h3>Promenadgrupp</h3>
+            <p>Träffa andra hundägare i ditt område.</p>
+            <a class="button" href="promenadgrupp.html">Läs mer</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/cafe.webp" alt="Hundägare fikar tillsammans med sina hundar på ett hundvänligt café."
+            class="card-image" loading="lazy">
+
+          <div class="card-content">
+            <h3>Hundcafé</h3>
+            <p>Upptäck hundvänliga caféer nära dig.</p>
+            <a class="button" href="hundcafe.html">Läs mer</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/puppy-training.webp"
+            alt="Hundägare tränar tillsammans med sina valpar utomhus i en park." class="card-image" loading="lazy">
+
+          <div class="card-content">
+            <h3>Träning</h3>
+            <p>Tips och aktiviteter för ett aktivt hundliv.</p>
+            <a class="button" href="valptraning.html">Läs mer</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+
+      <!-- Om Doggo -->
+      <section class="footer-section">
+        <h2>Doggo</h2>
+        <p>
+          En community skapad för hundägare som vill hitta aktiviteter,
+          inspiration och hundvänliga platser.
+        </p>
+      </section>
+
+      <!-- Footer-navigation -->
+      <nav class="footer-section" aria-label="Sidfotens navigation">
+        <h2>Navigation</h2>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="aktiviteter.html">Aktiviteter</a></li>
+          <li><a href="tips.html">Tips & inspiration</a></li>
+        </ul>
+      </nav>
+
+      <!-- Kontaktinformation -->
+      <section class="footer-section">
+        <h2>Kontakt</h2>
+
+        <address>
+          <p>
+            <a href="mailto:kontakt@doggo.se">kontakt@doggo.se</a>
+          </p>
+
+          <p>Stockholm, Sverige</p>
+        </address>
+      </section>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Doggo. Alla rättigheter förbehållna.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
