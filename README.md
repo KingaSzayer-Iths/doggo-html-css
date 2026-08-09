@@ -4,6 +4,13 @@ Doggo är en responsiv webbplats för hundägare där användaren kan hitta akti
 
 Projektet är utvecklat som en del av kursen **Responsiv webbdesign** med fokus på semantisk HTML5, modern CSS, tillgänglighet och användbarhet.
 
+---
+
+## Live Demo
+
+https://doggocommunity-html-css.netlify.app/
+
+---
 
 ## Syfte
 
@@ -153,7 +160,7 @@ Under arbetets gång har fokus legat på:
 
 Det här projektet har utvecklats med fokus på semantisk HTML5, modern CSS, responsiv design, tillgänglighet och användbarhet enligt kursens lärandemål.
 
-Genom hela utvecklingsprocessen - från idé och planering till design, implementation, testning och utvärdering – har målet varit att skapa en genomarbetad webbplats med hög kvalitet, tydlig struktur och en god användarupplevelse på olika enheter.
+Genom hela utvecklingsprocessen - från idé och planering till design, implementation, testning och utvärdering - har målet varit att skapa en genomarbetad webbplats med hög kvalitet, tydlig struktur och en god användarupplevelse på olika enheter.
 
 Projektet visar hur HTML5 och CSS3 kan användas för att utveckla ett modernt, responsivt och tillgängligt webbgränssnitt enligt etablerade designprinciper och med användaren i fokus.
 
